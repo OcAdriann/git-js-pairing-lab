@@ -93,6 +93,27 @@ const triangleArea = (base, height) => {
     return (base * height) / 2
 }
 
-console.log(triangleArea(5, 7))    //returns 17.5
+/*console.log(triangleArea(5, 7))    //returns 17.5
 console.log(triangleArea(6, 8))    //returns 24
+*/
+
+//Answer to question 9
+
+const betweenTwentyAndFourty = (num) => {
+    if (num > 20 && num < 40) {
+        return true
+    } else {
+        return false
+    }
+}
+
+console.log(betweenTwentyAndFourty(20))
+console.log(betweenTwentyAndFourty(21))
+
+
+
+
+
+
+
 
