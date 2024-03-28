@@ -65,8 +65,32 @@ const add = (num1, num2) => {
     return sum;
 }
 
-console.log(add(2, 4))     //returns 6
+/*console.log(add(2, 4))     //returns 6
 add(10, -5)   //returns 5
 add(3, 7.5)   //returns 10.5
 console.log(add(5, 5))     //returns 30 because the sum of 5 + 5 = 10 and 30 is triple that
 console.log(add(6, 6))     //returns 36 because the sum of 6 + 6 = 12 and 36 is triple that
+*/
+
+//Answer to Q7
+
+const isNegative = (num) => {
+    if (num > 0) {
+        return false
+    } else if (num < 0) {
+        return true
+    } else {
+        return "Error"
+    }
+}
+
+console.log(isNegative(3))
+console.log(isNegative(-5))
+
+
+
+
+
+
+
+
