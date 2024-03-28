@@ -7,7 +7,9 @@ const fiveToOneHundred = () => {
     return;
 }
 
-//fiveToOneHundred();
+fiveToOneHundred();
+
+console.log("----------")
 
 //Answer to Q2
 const multiplesOfThree = () => {
@@ -20,7 +22,9 @@ const multiplesOfThree = () => {
     return;
 }
 
-//multiplesOfThree();
+multiplesOfThree();
+
+console.log("----------")
 
 //answer to Q3
 const multiplesOfThreeOrFive = () => {
@@ -33,7 +37,9 @@ const multiplesOfThreeOrFive = () => {
     return;
 }
 
-//multiplesOfThreeOrFive();
+multiplesOfThreeOrFive();
+
+console.log("----------")
 
 //Answer to Q4
 const untilNum = (num) => {
@@ -44,15 +50,19 @@ const untilNum = (num) => {
 }
 
 // untilNum(5)    //prints out numbers 1 through 5
-// untilNum(9)    //prints out numbers 1 through 9
-//untilNum(42)   //prints out numbers 1 through 42
+untilNum(9)    //prints out numbers 1 through 9
+// untilNum(42)   //prints out numbers 1 through 42
+
+console.log("----------")
 
 //Answer to Q5
 const multiply = (num1, num2) => {
     return num1 * num2
 }
 
-//console.log(multiply(2, 4))
+console.log(multiply(2, 4))
+
+console.log("----------")
 
 //Answer to Q6
 const add = (num1, num2) => {
@@ -65,12 +75,14 @@ const add = (num1, num2) => {
     return sum;
 }
 
-/*console.log(add(2, 4))     //returns 6
-add(10, -5)   //returns 5
-add(3, 7.5)   //returns 10.5
+console.log(add(2, 4))     //returns 6
+/*console.log(add(10, -5))   //returns 5
+console.log(add(3, 7.5))   //returns 10.5
 console.log(add(5, 5))     //returns 30 because the sum of 5 + 5 = 10 and 30 is triple that
 console.log(add(6, 6))     //returns 36 because the sum of 6 + 6 = 12 and 36 is triple that
 */
+console.log("----------")
+
 
 //Answer to Q7
 
@@ -84,8 +96,10 @@ const isNegative = (num) => {
     }
 }
 
-// console.log(isNegative(3))
-// console.log(isNegative(-5))
+console.log(isNegative(3))
+//console.log(isNegative(-5))
+
+console.log("----------")
 
 //Answer to Q8
 
@@ -93,9 +107,10 @@ const triangleArea = (base, height) => {
     return (base * height) / 2
 }
 
-/*console.log(triangleArea(5, 7))    //returns 17.5
-console.log(triangleArea(6, 8))    //returns 24
-*/
+console.log(triangleArea(5, 7))    //returns 17.5
+//console.log(triangleArea(6, 8))    //returns 24
+
+console.log("----------")
 
 //Answer to question 9
 
@@ -107,8 +122,10 @@ const betweenTwentyAndFourty = (num) => {
     }
 }
 
-// console.log(betweenTwentyAndFourty(20))
-// console.log(betweenTwentyAndFourty(21))
+console.log(betweenTwentyAndFourty(20))
+//console.log(betweenTwentyAndFourty(21))
+
+console.log("----------")
 
 //Answer to Question 10
 
@@ -123,5 +140,5 @@ const largest = (num1, num2, num3) => {
 }
 
 console.log(largest(4, 6, 8))        //returns 8
-largest(30, 22, 17)     //returns 30
-console.log(largest(41, 108, 86))    //returns 108
+//console.log(largest(30, 22, 17))     //returns 30
+//console.log(largest(41, 108, 86))    //returns 108
