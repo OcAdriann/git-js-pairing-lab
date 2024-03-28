@@ -46,4 +46,11 @@ const untilNum = (num) => {
 
 // untilNum(5)    //prints out numbers 1 through 5
 // untilNum(9)    //prints out numbers 1 through 9
-untilNum(42)   //prints out numbers 1 through 42
+//untilNum(42)   //prints out numbers 1 through 42
+
+//Answer to Q5
+const multiply = (num1, num2) => {
+    return num1 * num2
+}
+
+console.log(multiply(2, 4))
