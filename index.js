@@ -34,4 +34,16 @@ const multiplesOfThreeOrFive = () => {
     return;
 }
 
-multiplesOfThreeOrFive();
+//multiplesOfThreeOrFive();
+
+//Answer to Q4
+const untilNum = (num) => {
+    for (let i = 1; i <= num; i++) {
+        console.log(i);
+    }
+    return;
+}
+
+// untilNum(5)    //prints out numbers 1 through 5
+// untilNum(9)    //prints out numbers 1 through 9
+untilNum(42)   //prints out numbers 1 through 42
