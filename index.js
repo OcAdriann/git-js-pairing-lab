@@ -23,7 +23,6 @@ const multiplesOfThree = () => {
 //multiplesOfThree();
 
 //answer to Q3
-
 const multiplesOfThreeOrFive = () => {
 
     for (let i = 1; i < 101; i++) {
@@ -53,4 +52,21 @@ const multiply = (num1, num2) => {
     return num1 * num2
 }
 
-console.log(multiply(2, 4))
+//console.log(multiply(2, 4))
+
+//Answer to Q6
+const add = (num1, num2) => {
+    let sum = num1 + num2;
+
+    if (num1 === num2) {
+        sum *= 3;
+    }
+
+    return sum;
+}
+
+console.log(add(2, 4))     //returns 6
+add(10, -5)   //returns 5
+add(3, 7.5)   //returns 10.5
+console.log(add(5, 5))     //returns 30 because the sum of 5 + 5 = 10 and 30 is triple that
+console.log(add(6, 6))     //returns 36 because the sum of 6 + 6 = 12 and 36 is triple that
