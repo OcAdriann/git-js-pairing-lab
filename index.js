@@ -107,13 +107,21 @@ const betweenTwentyAndFourty = (num) => {
     }
 }
 
-console.log(betweenTwentyAndFourty(20))
-console.log(betweenTwentyAndFourty(21))
+// console.log(betweenTwentyAndFourty(20))
+// console.log(betweenTwentyAndFourty(21))
 
+//Answer to Question 10
 
+const largest = (num1, num2, num3) => {
+    if (num1 >= num2 && num1 >= num3) {
+        return num1;
+    } else if (num2 >= num1 && num2 >= num3) {
+        return num2;
+    } else if (num3 >= num2 && num3 >= num1) {
+        return num3;
+    }
+}
 
-
-
-
-
-
+console.log(largest(4, 6, 8))        //returns 8
+largest(30, 22, 17)     //returns 30
+console.log(largest(41, 108, 86))    //returns 108
