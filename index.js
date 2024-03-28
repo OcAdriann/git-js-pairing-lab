@@ -84,13 +84,15 @@ const isNegative = (num) => {
     }
 }
 
-console.log(isNegative(3))
-console.log(isNegative(-5))
+// console.log(isNegative(3))
+// console.log(isNegative(-5))
 
+//Answer to Q8
 
+const triangleArea = (base, height) => {
+    return (base * height) / 2
+}
 
-
-
-
-
+console.log(triangleArea(5, 7))    //returns 17.5
+console.log(triangleArea(6, 8))    //returns 24
 
